@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div class="col-6 offset-3">
-      <div id="buttonDesign">
+      <div id="buttonDesign" class="mt-5">
         <button class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" @click="change('basic')">Open Basic Standard Modal</button>
         <br><br><br>
         <button class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" @click="change('full')">Open Full View Modal</button>

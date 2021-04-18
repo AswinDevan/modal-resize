@@ -9,7 +9,7 @@ Vue.directive('changepad',
     if(binding.value=='full'){
       el.style.padding="0";
     }else if(binding.value=='basic'){
-      el.style.padding="7% 20%";
+      el.style.padding="10% 20%";
     }
   }
 )
